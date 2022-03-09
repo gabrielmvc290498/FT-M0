@@ -1,7 +1,7 @@
-var resultado = 100
-function verificar(num){
-    if(num===100) return "es igual a 100";
-    return "es diferente de 100";
+For (let i=0; i<10; i++){
+    console.log(i);
 }
-console.log(verificar(200));
-console.log(verificar(100));
+
+
+
+
