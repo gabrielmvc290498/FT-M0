@@ -128,8 +128,7 @@ function numeroMasGrande(numeros) {
   // Tu código:
 
 }
-console.log("el mayor es");
-console.log(numeroMasGrande(notas));
+
 
 
 function tablaDelSeis(){
@@ -148,8 +147,9 @@ function multiplicarArgumentos() {
   // Usa la palabra clave `arguments` para multiplicar todos los argumentos y devolver el producto
   // Si no se pasan argumentos devuelve 0. Si se pasa un argumento, simplemente devuélvelo
   // Escribe tu código aquí:
-  arguments=[]
-
+  if (arguments===0){
+    return 0;
+  }
 }
 
 
@@ -182,7 +182,7 @@ function empiezaConNueve(n) {
   //Desarrolle una función que recibe como parámetro un número entero n. Debe retornar true si el entero 
   //inicia con 9 y false en otro caso.
   //Escribe tu código aquí
-  
+
 }
 
 
