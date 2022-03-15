@@ -23,6 +23,7 @@ function anonima(usuario){
     return usuario +" es un buen usuario";
 }
 
+
 function crearsaludo(usuario,cb){
     return cb(usuario);
 }
