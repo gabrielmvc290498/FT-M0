@@ -204,7 +204,19 @@ function esVerdadero(valor){
 function tieneTresDigitos(numero){
   //Leer un número entero y retornar true si tiene 3 dígitos. Caso contrario, retorna false.
   //Escribe tu código aquí
+  let dig=0
+  while(numero>=10){
+    numero=numero/10
+    dig=dig+1
+  }
+  console.log(dig)
+  if(dig+1===3){
+    return true;
+  }else{
+    return false;
+  }
 }
+
 
 function doWhile(numero) {
   //Implementar una función tal que vaya aumentando el valor recibido en 5 hasta un límite de 8 veces
